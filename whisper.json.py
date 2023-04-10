@@ -30,18 +30,12 @@ for block in blocks:
     start_end = lines[1].split(' --> ')
 
     # split the start and end into hours, minutes, seconds, and milliseconds
-    start = start_end[0].split(':')
-    end = start_end[1].split(':')
-
     # convert the start and end to seconds
-    start = to_seconds(start)
-    end = to_seconds(end)
-
     # append a segment to the transcript segments array
     transcript['segments'].append({
-        'start': start,
-        'end': end,
-        'text': lines[2].strip()
+        'startTime': to_seconds(start_end[0].split(':')),
+        'endTime': to_seconds(start_end[1].split(':')),
+        'body': lines[2].strip()
         
     })
 
