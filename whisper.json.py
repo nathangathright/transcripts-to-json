@@ -39,8 +39,8 @@ for block in blocks:
         
     })
 
-# if a segment has no text, remove it
-transcript['segments'] = list(filter(lambda segment: segment['text'] != '', transcript['segments']))
+# if a segment has no body, remove it
+transcript['segments'] = list(filter(lambda segment: segment['body'] != '', transcript['segments']))
 
 # if a segment just contains puctuation, combine it with the previous segment
 for i in range(len(transcript['segments']) - 1, 0, -1):
