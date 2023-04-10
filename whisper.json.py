@@ -44,9 +44,9 @@ transcript['segments'] = list(filter(lambda segment: segment['body'] != '', tran
 
 # if a segment just contains puctuation, combine it with the previous segment
 for i in range(len(transcript['segments']) - 1, 0, -1):
-    if transcript['segments'][i]['text'] in ['.', ',', '!', '?']:
-        transcript['segments'][i - 1]['text'] += transcript['segments'][i]['text']
-        transcript['segments'][i - 1]['end'] = transcript['segments'][i]['end']
+    if transcript['segments'][i]['body'] in ['.', ',', '!', '?']:
+        transcript['segments'][i - 1]['body'] += transcript['segments'][i]['body']
+        transcript['segments'][i - 1]['endTime'] = transcript['segments'][i]['endTime']
         transcript['segments'].pop(i)
 
 # write the transcript to the output file
