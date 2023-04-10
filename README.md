@@ -25,7 +25,7 @@ Whisper.cpp supports [word-by-word timestamps](https://github.com/ggerganov/whis
 1. Setup and run whisper.json:
    ```sh
    # Clone whisper.json and navigate into it’s directory:
-   git clone https://github.com/nathangathright/whisper.json.git && cd whisper.json/
+   git clone https://github.com/stenofm/whisper.json.git && cd whisper.json/
    
    # Convert an SRT into a JSON file:
    python whisper.json.py <input.srt>
