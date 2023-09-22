@@ -1,0 +1,115 @@
+{
+    "version": "1.0.0",
+    "segments": [
+        {
+            "startTime": 0.32,
+            "endTime": 0.37,
+            "body": "And"
+        },
+        {
+            "startTime": 0.37,
+            "endTime": 0.69,
+            "body": "so"
+        },
+        {
+            "startTime": 0.69,
+            "endTime": 0.85,
+            "body": "my"
+        },
+        {
+            "startTime": 0.85,
+            "endTime": 1.59,
+            "body": "fellow"
+        },
+        {
+            "startTime": 1.59,
+            "endTime": 3.3,
+            "body": "Americans,"
+        },
+        {
+            "startTime": 3.3,
+            "endTime": 4.14,
+            "body": "ask"
+        },
+        {
+            "startTime": 4.14,
+            "endTime": 4.99,
+            "body": "not"
+        },
+        {
+            "startTime": 4.99,
+            "endTime": 5.41,
+            "body": "what"
+        },
+        {
+            "startTime": 5.41,
+            "endTime": 5.66,
+            "body": "your"
+        },
+        {
+            "startTime": 5.66,
+            "endTime": 6.26,
+            "body": "country"
+        },
+        {
+            "startTime": 6.26,
+            "endTime": 6.6,
+            "body": "can"
+        },
+        {
+            "startTime": 6.6,
+            "endTime": 6.84,
+            "body": "do"
+        },
+        {
+            "startTime": 6.84,
+            "endTime": 7.01,
+            "body": "for"
+        },
+        {
+            "startTime": 7.01,
+            "endTime": 8.19,
+            "body": "you,"
+        },
+        {
+            "startTime": 8.19,
+            "endTime": 8.43,
+            "body": "ask"
+        },
+        {
+            "startTime": 8.43,
+            "endTime": 8.91,
+            "body": "what"
+        },
+        {
+            "startTime": 8.91,
+            "endTime": 9.04,
+            "body": "you"
+        },
+        {
+            "startTime": 9.04,
+            "endTime": 9.32,
+            "body": "can"
+        },
+        {
+            "startTime": 9.32,
+            "endTime": 9.44,
+            "body": "do"
+        },
+        {
+            "startTime": 9.44,
+            "endTime": 9.76,
+            "body": "for"
+        },
+        {
+            "startTime": 9.76,
+            "endTime": 10.02,
+            "body": "your"
+        },
+        {
+            "startTime": 10.02,
+            "endTime": 11.0,
+            "body": "country."
+        }
+    ]
+}
