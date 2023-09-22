@@ -1,4 +1,4 @@
-# whisper.json
+# Podcasting 2.0 JSON
 
 Whisper.cpp supports [word-by-word timestamps](https://github.com/ggerganov/whisper.cpp#word-level-timestamp), but doesn’t support exporting them in the [Podcast Namespace JSON structure](https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json). This is a quick guide on how to do that.
 
